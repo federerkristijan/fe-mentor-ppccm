@@ -16,21 +16,33 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-      .body {
+      body {
         background: hsl(30, 38%, 92%);
-        width: 1440px;
       }
+
       .card {
         display: flex;
-
+        position: relative;
+        top: 10vh;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width: 45vw;
+        border-radius: 5%;
+        background: hsl(0, 0%, 100%);
+        border: 1px solid red;
       }
 
       img {
-        height: 240px;
-        width: 240px;
+        height: 70vh;
+        width: 22vw;
+        border-radius: 5% 0 0 5%;
       }
 
       .attribution {
+        position: relative;
+        top: 35vh;
         font-size: 11px;
         text-align: center;
       }
@@ -60,7 +72,9 @@
         <div class="old-price">
           <p>$169.99</p>
         </div>
-        <div class="button">Add to Cart</div>
+        <div class="button">
+          <button>Add to Cart</button>
+        </div>
       </div>
     </div>
 
@@ -68,7 +82,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://www.frontendmentor.io/profile/federerkristijan">Kristijan Federer</a>.
     </div>
   </body>
 </html>

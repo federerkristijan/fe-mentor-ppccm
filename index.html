@@ -51,7 +51,7 @@
       }
 
       .text {
-        padding: 1.7rem;
+        padding: 0 0.6rem;
       }
 
       .prices {
@@ -72,11 +72,32 @@
       }
 
       button {
-        color: hsl(158, 36%, 37%);
+        display: inline-block;
+        background-color: hsl(158, 36%, 37%);
+        color: hsl(0, 0%, 100%);
+        border: none;
+        padding: 1.8vh 6vw;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 14px;
+        white-space: nowrap;
+        margin-top: 1.5rem;
+      }
+      button > p {
+        display: inline;
+        font-family: "Montserrat";
+        font-weight: bold;
       }
 
       button:hover {
-        color: hsl(212, 21%, 14%);
+        background-color: hsl(212, 21%, 14%);
+      }
+
+      .btn {
+        width: 15px;
+        height: 16px;
+        left: -5px;
       }
 
       .attribution {
@@ -110,7 +131,12 @@
           <h4 class="old-price">$169.99</h4>
         </div>
         <div class="button">
-          <button>Add to Cart</button>
+          <button>
+            <p>
+              <img class="btn" src="./images/icon-cart.svg" />
+              Add to Cart
+            </p>
+          </button>
         </div>
       </div>
     </div>

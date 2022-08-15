@@ -46,12 +46,12 @@
         position: relative;
         top: 0.35vh;
         height: 70vh;
-        width: 22vw;
+        width: 24vw;
         border-radius: 5% 0 0 5%;
       }
 
       .text {
-        padding: 2rem;
+        padding: 1.7rem;
       }
 
       .prices {
@@ -61,13 +61,22 @@
       }
 
       .price {
-        font-family: "Montserrat";
+        font-family: "Fraunces";
         font-size: 1.5rem;
         color: hsl(158, 36%, 37%);
       }
 
-      .button {
+      .old-price {
+        text-decoration: line-through;
+        font-size: 14px;
+      }
+
+      button {
         color: hsl(158, 36%, 37%);
+      }
+
+      button:hover {
+        color: hsl(212, 21%, 14%);
       }
 
       .attribution {
@@ -97,8 +106,8 @@
           </p>
         </div>
         <div class="prices">
-          <p class="price">$149.99</p>
-          <p class="old-price">$169.99</p>
+          <h1 class="price">$149.99</h1>
+          <h4 class="old-price">$169.99</h4>
         </div>
         <div class="button">
           <button>Add to Cart</button>

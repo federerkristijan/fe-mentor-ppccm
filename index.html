@@ -36,7 +36,7 @@
         justify-content: center;
         align-items: center;
         height: 70vh;
-        width: 45vw;
+        width: 50vw;
         border-radius: 5%;
         background: hsl(0, 0%, 100%);
         border: 1px solid red;
@@ -50,8 +50,27 @@
         border-radius: 5% 0 0 5%;
       }
 
+      p, h4 {
+        font-family: "Montserrat";
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+      }
+
       .text {
-        padding: 0 0.6rem;
+        margin: 0 2rem;
+      }
+
+      .title {
+        font-size: 17px;
+        font-weight: 700;
+        font-family: "Fraunces";
+        text-align: start;
+      }
+
+      .description {
+
+        /* text-align: justify; */
+
       }
 
       .prices {
@@ -62,7 +81,7 @@
 
       .price {
         font-family: "Fraunces";
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         color: hsl(158, 36%, 37%);
       }
 
@@ -82,7 +101,7 @@
         border-radius: 8px;
         font-size: 14px;
         white-space: nowrap;
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
       }
       button > p {
         display: inline;
@@ -117,12 +136,13 @@
         <img src="./images/image-product-desktop.jpg" />
       </div>
       <div class="text">
+        <p>Preview</p>
         <div class="title">
-          <h2>Gabrielle Essence Eau De Parfum</h2>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
         </div>
         <div class="desc">
           <p>
-            Preview A floral, solar and voluptuous interpretation composed by
+            A floral, solar and voluptuous interpretation composed by
             Olivier Polge, Perfumer-Creator for the House of CHANEL.
           </p>
         </div>
@@ -132,10 +152,8 @@
         </div>
         <div class="button">
           <button>
-            <p>
               <img class="btn" src="./images/icon-cart.svg" />
               Add to Cart
-            </p>
           </button>
         </div>
       </div>
